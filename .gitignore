@@ -1,0 +1,24 @@
+
+# Secrets and environment
+.env
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated data, databases, reports and local backups
+data/*
+!data/.gitkeep
+!data/sample_sales.csv
+backup_before_ollama/
+chroma_db/
+*.db
+*.sqlite3
+
+# Editor and OS files
+.DS_Store
+.vscode/
